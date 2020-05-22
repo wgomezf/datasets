@@ -1,7 +1,7 @@
 # Datasets
-This repository includes synthetic and real-world datasets for evaluating machine learning algorithms. The datasets are provided in two kinds of formats, MAT files for Matlab, and text files.
+This repository includes nine synthetic and 28 real-world datasets for evaluating machine learning algorithms. All the real-world datasets were obtained from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php). The datasets are provided in two kinds of formats, MAT files for Matlab, and text files:
 
-Datasets stored in MAT files have the following variables:
+* Datasets stored in MAT files have the following variables:
 * Xtr - Training data. It is a matrix of size D x Ntrain.
 * Ytr - Training class labels. It is a vector of size 1 x Ntrain.
 * Xtt - Test data. It is a matrix of size D x Ntest.
